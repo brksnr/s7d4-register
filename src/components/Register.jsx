@@ -23,6 +23,7 @@ export default function Register () {
         password: "en az 8 karakter, büyük harf, küçük harf, sembol ve rakam içermelidir",
     }
     // commit deneme
+    //commit deneme2
     const validateEmail = (email) => {
         return String(email)
           .toLowerCase()

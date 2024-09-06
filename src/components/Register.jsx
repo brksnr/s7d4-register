@@ -22,6 +22,7 @@ export default function Register () {
         email: "Geçerli bir email giriniz",
         password: "en az 8 karakter, büyük harf, küçük harf, sembol ve rakam içermelidir",
     }
+    // commit deneme
     const validateEmail = (email) => {
         return String(email)
           .toLowerCase()
